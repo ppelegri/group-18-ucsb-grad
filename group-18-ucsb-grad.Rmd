@@ -1,0 +1,20 @@
+---
+title: "Group 18 UCSB domestic grad enrollment"
+author: "Patrick Pelegri-O'Day, Deanna Elliott"
+date: "11/13/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE, message = FALSE, warning = FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE)
+
+library(here)
+library(tidyverse)
+```
+
+Read in data
+```{r}
+ucsb_grad <-
+  read_csv(here("data", "ucsb_grad_data.csv"))
+```
+
