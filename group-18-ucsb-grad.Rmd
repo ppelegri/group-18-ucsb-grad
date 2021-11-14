@@ -31,5 +31,3 @@ ggplot(data = ucsb_grad,
 ```
 
 **Figure 1. Percentage of graduate domestic enrollment by ethnicity.** This graph shows domestic enrollment in graduate programs at UCSB based on enrollment year and student ethnicity. White students represent 50-65% every year, followed distantly by Asian American, Latino, and Chicano students. American Indian/Alaskan students hold the lowest percent representation.
-
-
